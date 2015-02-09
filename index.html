@@ -39,6 +39,11 @@ h1, .lead {
 .top-margin {
   margin-top: 45px;
 }
+.form-framer {
+  background-color: rgba(0,0,0,0.18);
+  margin-top: 100px;
+  padding-bottom: 45px;
+}
 
 </style>   
 
@@ -48,6 +53,7 @@ h1, .lead {
 
   <div class="container">
 
+  <div class="form-framer col-md-8 col-md-offset-2">
     <div class="row top-margin">
       <div class="col-md-6 col-md-offset-3">
         <h1 class="text-center top-margin">Be like a Bird</h1> 
@@ -56,12 +62,13 @@ h1, .lead {
     </div>
 
     <form>
-      <div class="form-group">
+      <div class="form-group col-md-8 col-md-offset-2">
         <input type="text" class="form-control" name="city" id="city">
       </div>
-      <button class="btn btn-info btn-lg center-block">Should I fly away or stay??</button>
+      <button class="btn btn-warning btn-lg center-block">Should I fly away or stay??</button>
     </form>
 
+    </div>
 
 
   </div>
